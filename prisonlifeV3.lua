@@ -1,4 +1,4 @@
-local library = loadfile("aztuplib.lua")(); -- load the library
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/JustNoob2005/RobloxScripts/refs/heads/main/aztuplib.lua"))(); -- load the library
 local Players = game:GetService("Players") -- get the players service
 local LocalPlayer = Players.LocalPlayer -- get the local player
 local character = LocalPlayer.character -- get the local player's character
